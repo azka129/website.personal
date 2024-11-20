@@ -1,0 +1,23 @@
+.car-card {
+  transition: all 0.3s ease;
+}
+
+.car-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+} 
+/* Variasi 1: Scaling */
+.car-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Variasi 2: Rotating slightly */
+  .car-card:hover {
+    transform: rotate(2deg);
+  }
+  
+  /* Variasi 3: Kombinasi efek */
+  .car-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
